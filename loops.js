@@ -58,5 +58,16 @@ const someValueGreaterThan500 = orders.some(v => v > 500)
  */
 const someValueGreaterThan10 = orders.some(v => v > 10)
 
+/**
+ * Find
+ * @returns 500
+ */
+const firstElementDivisibleBy2 = orders.find(v => v % 2 == 0);
+
+/**
+ * Find
+ * @returns undefined
+ */
+const firstElementDivisibleBy7 = orders.find(v => v % 7 == 0);
 
 
